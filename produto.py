@@ -5,4 +5,17 @@ class produto:
         self.fabricação = fabricação
         self.ativo = ativo
         self.categoria = categoria
+
+    def __str__(self):
+        return "Produto nome='{}', descrição='{}', fabricação='{}', ativo='{}' categoria='{}'".format(
+        
+        self.nome,
+        self.descrição,
+        self.fabricação,
+        self.ativo,
+        self.categoria,
+    
+        )
+           
+        
     
