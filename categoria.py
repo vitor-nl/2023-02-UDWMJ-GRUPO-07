@@ -4,3 +4,7 @@ class categoria:
         self.nome = nome
         self.descricao = descricao
         
+    def __str__(self):
+        return "categoria(id = '{}', nome = '{}', descricao = '{}')".format(
+            self.id, self.nome, self.descricao
+        )
