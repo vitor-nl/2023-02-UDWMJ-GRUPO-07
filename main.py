@@ -1,10 +1,7 @@
 from cliente import Cliente
+from categoria import categoria
+from order import order
 
-cliente = Cliente(
-    nome="João da Silva",
-    sobrenome="Silva",
-    endereco="Rua das Flores, 123",
-    telefone="(11) 9999-9999",
-    email="joao.silva@email.com",
-    genero="Masculino",
-)
+print(Cliente)
+print(categoria)
+print(order)

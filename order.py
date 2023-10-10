@@ -8,3 +8,9 @@ class order:
         return "order(preco_total= '{}', status = '{}', cliente = '{}')".format(
             self.preco_total, self.status, self.cliente 
         )      
+
+preco_total = 100.0
+status = "pending"
+cliente = "João Silva"
+
+order = order(preco_total, status, cliente)

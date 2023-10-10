@@ -14,8 +14,8 @@ class produto:
         self.fabricação,
         self.ativo,
         self.categoria,
-    
-        )
+         )
+         
            
         
     
