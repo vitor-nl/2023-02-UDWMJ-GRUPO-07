@@ -16,6 +16,10 @@ class produto:
         self.categoria,
          )
          
-           
+    nome = "leite"
+    descrição = "branco"
+    fabricação = "12/09/2023"
+    ativo = "Ativo"
+    categoria = "Alimento"       
         
     
